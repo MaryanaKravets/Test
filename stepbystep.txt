@@ -19,7 +19,7 @@ origin server
 14) git commit -m "add commit test.txt and stepbystep.txt on develop branch"
 // this command commit changes with commit message- add commit test.txt and
 stepbystep.txt on develop branch
-15) git push -u origin master //this command push master branch to origin
+15) git push -u origin develop //this command push develop branch to origin
  server
 16) git checkout master // this command switch branch master
 17) git merge  develop // this command merge develop branch into master
