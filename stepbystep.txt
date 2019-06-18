@@ -1,0 +1,27 @@
+1) Registration on github.com, create a new remote repository
+2) git init //this command initializing a local repository
+3) git remote add origin https://github.com/MaryanaKravets/Test.git
+//this command adds a new remote Git repository
+4) touch test.txt //this command creates a new file called test.txt
+5) nano test.txt // this command open the editor
+6) git status // this command checking the status of file-test.txt
+7) git add test.txt // this command specify the file (test.txt) with
+I want to track
+8) git commit -m "add commit test.txt on branch master" // this command
+ commit changes with the commit message
+9) git push -u origin master // this command  push my master branch to my
+origin server
+10) git branch develop // this command create a new branch called develop
+11) git checkout develop // this command swich to develop branch
+12) modifying file test.txt in nano,and create stepbystep.txt file
+13) git add test.txt stepbystep.txt //this command
+ to track files test.txt and spetbystep.txt
+14) git commit -m "add commit test.txt and stepbystep.txt on develop branch"
+// this command commit changes with commit message- add commit test.txt and
+stepbystep.txt on develop branch
+15) git push -u origin master //this command push master branch to origin
+ server
+16) git checkout master // this command switch branch master
+17) git merge  develop // this command merge develop branch into master
+18) git push -u origin master // this command push my master branch to my
+origin server
